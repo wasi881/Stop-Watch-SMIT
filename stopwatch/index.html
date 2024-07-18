@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="number" id="time">
+            00:00:00:00
+        </div>
+        <div class="btn">
+            <button onclick="start() " id="start" style="background-color: rgb(54, 239, 239); box-shadow: 0px 0px 20px rgb(54, 239, 239);">START</button>
+            <button onclick="reset()" style="background-color: rgb(240, 60, 60); box-shadow: 0px 0px 20px rgb(240, 60, 60);">RESET</button>
+            <button onclick="stop()" style="background-color: rgb(60, 123, 148); box-shadow: 0px 0px 20px rgb(60, 123, 148);">STOP</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
